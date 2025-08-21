@@ -1,0 +1,14 @@
+Arquitectura de Yape
+1.	Parte Cliente
+•	Aquí está la app móvil (Android/iOS).
+2.	Parte Servidor (Presentación)
+•	La app manda sus pedidos (ejemplo: “quiero enviar plata”).
+•	Aquí entran los Servlets, que reciben la petición.
+•	El intercambio de datos se hace en JSON.
+•	JSP casi no se usa porque Yape no es web, pero se podría usar para mostrar cosas dinámicas si fuera necesario.
+3.	Parte Servidor (Lógica de Negocio)
+•	Aquí están las reglas del banco: validar usuario, ver saldo, aprobar o rechazar la transacción.
+•	Se usan cosas como EJB y Web Services que conectan con los sistemas del BCP.
+4.	Sistema del Banco (Datos)
+•	Aquí están las bases de datos y el core bancario (toda la info de cuentas, saldos, historial).
+•	El sistema responde al servidor y este le contesta a la app con: “Transferencia exitosa” o “Saldo insuficiente”.
