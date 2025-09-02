@@ -1,3 +1,4 @@
+INSTALAR WIDLFLY
 Descargar la última versión de Wildfly: https://www.wildfly.org/downloads/
 Descomprimir e ingresar a la carpeta "bin", seleccionar con clic derecho "add-user.bat" y elegir "Ejecutar como administrador"
 Aparecerá el símbolo del sistema indicando que no se encuentra "JAVA_HOME" habilitado.
