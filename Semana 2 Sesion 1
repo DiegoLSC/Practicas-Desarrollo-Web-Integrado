@@ -1,1 +1,12 @@
-1. Descargar la última versión de Wildfly: https://www.wildfly.org/downloads/
+Descargar la última versión de Wildfly: https://www.wildfly.org/downloads/
+Descomprimir e ingresar a la carpeta "bin", seleccionar con clic derecho "add-user.bat" y elegir "Ejecutar como administrador"
+Aparecerá el símbolo del sistema indicando que no se encuentra "JAVA_HOME" habilitado.
+En mi caso tengo Windows 10, entonces la ruta sería: Inicio > Sistema > Configuración avanzada del sistema > Variables de entorno
+Agregar una nueva variable con el nombre JAVA_HOME y el valor de la variable será la ruta del JDK: C:\Program Files\Java\jdk-21.
+Volver a realizar el paso 2, pero ahora ya no saldrá el mensaje anterior.
+En el símbolo del sistema escribir "a" para elegir la primera opción. En username poner "root", luego yes, finalmente poner una contraseña.
+Ahora en NetBeans, ir a "Services > Servers > Add Server..."
+Escoger "WildFly Appication Server" > Next
+En la localización del servidor, poner la ruta actual de la carpeta que se descomprimió antes, y en Configuración del servidor dejarlo como está.
+En la siguiente ventana dejar los datos ya puestos, pero agregar en User: root y en Password la contraseña antes creada. Finish
+Debajo de Servers aparece WildFly, clic derecho y Start, aparecerá cargas, de esa manera nos aseguramos que esté ejecutandosé correctamente.
