@@ -1,1 +1,3 @@
-
+CREAR PROYECTO MAVEN
+Crear un nuevo proyecto en NetBeans: Java with Maven > Web Application
+Asignamos cualquier nombre al proyecto. En servidor seleccionar WildFly y Finish.
