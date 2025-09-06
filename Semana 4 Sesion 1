@@ -1,1 +1,19 @@
+APACHE TOMCAT
+Descargar Apache del siguiente enlace: https://tomcat.apache.org/download-90.cgi
+Elegir la versión Binary Distributions > Core > zip (para Windows)
+Descomprimir y copiar la ruta del archivo
+En NetBeans ir a Services > Servers > Add Server...
+Elegir "Apache Tomcat or TomEE", en Server Location pegar la ruta, poner un user y una contraseña y finish
 
+CREAR PROYECTO EN JAVA WITH ANT
+Crear un nuevo proyecto pero seleccionar: Java with Ant > Java Web > Web Application
+Dar el nombre al proyecto y Next
+En server elegir Apache y en la versión de Java elegir: Jakarta EE 8 Web u otra más actual
+Seleccionar todos los frameworks a usar, elegir JavaServer Faces
+Ver DESCARGAR API PARA JSF (JAVASERVER FACES)
+Al seleccionar JavaServer Faces estará la opción marcada "Registered Libraries" con el nombre de la libreria mencionada y Finish. 
+
+DESCARGAR API PARA JSF (JAVASERVER FACES)
+https://repo1.maven.org/maven2/org/glassfish/jakarta.faces/4.0.6/jakarta.faces-4.0.6.jar
+En NetBeans ir a Tools > Libraries > New Library... > Add JAR / FOLDER y pegar la ruta del .jar
+Volver a CREAR PROYECTO EN JAVA WITH ANT
