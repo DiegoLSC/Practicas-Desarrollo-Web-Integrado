@@ -1,1 +1,7 @@
-
+JAR y JDBC
+Descargar el driver JAR del siguiente enlace: https://dev.mysql.com/downloads/connector/j/ y elegir Platform Independent ".zip"
+Descomprimir y copiar la ruta del archivo .jar
+En NetBeans, ir a Services > Databases > Drivers > MySQL (Connector/J driver)
+Ingresa la ruta y en la siguiente ventana dejar las características ya puestas
+Pulsar el botón Tes Connection para saber si está la conexión disponible y next
+Al finalizar debería estar instalado el JAR debajo de la carpeta Drivers.
