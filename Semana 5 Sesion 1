@@ -1,2 +1,6 @@
-Gestor de BD
-Descargar Mamp https://www.mamp.info/en/downloads/
+Uso de Base de Datos
+Descargar MAMP https://www.mamp.info/en/downloads/
+Instalar MAMP
+Descargar el conector de mysql a través del siguiente enlace: https://dev.mysql.com/downloads/connector/j/
+Elegir Platform Independent (.zip)
+En NetBeans añadir la librería del .jar de mysql y quedaría listo, solo faltaría establecer la conexón.
